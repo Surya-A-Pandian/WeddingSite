@@ -1,0 +1,179 @@
+.header img {
+    position: relative;
+}
+.head p {
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: 50%;
+    left: 25%;
+}
+.noelle {
+    width: 100%;
+}
+.text {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.text img {
+    margin: 50px;
+    margin-left: 15%;
+}
+.about1 p{
+    width: 60%;
+    margin-left: 50px;
+    color: #302d2d;
+    font-size: large;
+}
+.text1 p{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    color: #302d2d;
+    font-size: larger;
+    margin-bottom: 10%;
+}
+.text2 p{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 15%;
+    color: #302d2d;
+    font-size: large;
+    margin-bottom: 15px;
+}
+.text3 p{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    color: #302d2d;
+    font-size: large;
+    margin-bottom: 15px;
+}
+.text4 p{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    color: #302d2d;
+    font-size: large;
+    margin-bottom: 15px;
+}
+.chat {
+    margin-top: 10%;
+    font-size: x-large;
+    color: #4d4d4d;
+}
+.chat button {
+    background-color: rgb(168, 138, 60);
+    color: white;
+    padding: 10px 25px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: none;
+    cursor: pointer;
+}
+.chat button:hover {
+    background-color: rgb(168, 149, 101);
+}
+
+@media (max-width: 576px) {
+    .header img {
+        position: relative;
+    }
+    .head p {
+        position: absolute;
+        font-size: 20px;
+        color: white;
+        top: 20%;
+        left: 3%;
+    }
+    .noelle{
+        width: 200px;
+    }
+    .text {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* .text img {
+        margin: 50px;
+        margin-left: 15%;
+    } */
+    .about1 p{
+        width: 70%;
+        text-align: justify;
+        /* margin-left: 50px; */
+        color: #302d2d;
+        margin-left: 15%;
+        font-size: large;
+        margin-bottom: 50px;
+    }
+    .text1 p{
+        width: 70%;
+        /* justify-content: center;
+        align-items: center; */
+        margin-left: 15%;
+        text-align: justify;
+        color: #302d2d;
+        font-size: larger;
+        margin-bottom: 10%;
+    }
+    .text2 p{
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        margin-top: 100px;
+        margin-left: 15%;
+        color: #302d2d;
+        font-size: large;
+        margin-bottom: 20px;
+    }
+    .text3 p{
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        margin-left: 15%;
+        margin-bottom: 20px;
+        color: #302d2d;
+        font-size: large;
+    }
+    .text4 p{
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        margin-left: 15%;
+        color: #302d2d;
+        font-size: large;
+        margin-bottom: 15px;
+    }
+    .chat {
+        margin-top: 10%;
+        font-size: x-large;
+        color: #4d4d4d;
+    }
+    .chat button {
+        background-color: rgb(168, 138, 60);
+        color: white;
+        padding: 10px 25px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        border: none;
+        cursor: pointer;
+    }
+    .chat button:hover {
+        background-color: rgb(168, 149, 101);
+    }
+}

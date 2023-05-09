@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.title h1 {
+  font-size: xx-large;
+}
+.pic {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  text-align: center;
+}
+.pic1 img:hover {
+  opacity: 70%;
+}
+.pic1 { 
+  position: relative;
+}
+.pic1 > img {
+  position: relative;
+}
+.pic1 > h3 {
+  top: 50%;
+  left: 40%;
+  color: white;
+  position: absolute;
+}
+.pic2 img:hover {
+  opacity: 70%;
+}
+.pic2 { 
+  position: relative;
+}
+.pic2 > img {
+  position: relative;
+}
+.pic2 > h3 {
+  top: 50%;
+  left: 40%;
+  color: white;
+  position: absolute;
+}
+
+
+.pic3 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.pic3 img:hover  {
+  opacity: 70%;
+}
+
+.pic4 { 
+  position: relative;
+}
+.pic4 > img {
+  position: relative;
+}
+.pic4 > h3 {
+  top: 50%;
+  left: 40%;
+  color: white;
+  position: absolute;
+}
+
+.pic5 { 
+  position: relative;
+}
+.pic5 > img {
+  position: relative;
+}
+.pic5 > h3 {
+  top: 50%;
+  left: 40%;
+  color: white;
+  position: absolute;
+}
+
+.pic6 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.pic6 img:hover {
+  opacity: 70%;
+}
+.pic7 { 
+  position: relative;
+}
+.pic7 > img {
+  position: relative;
+}
+.pic7 > h3 {
+  top: 50%;
+  left: 40%;
+  color: white;
+  position: absolute;
+}
+.pic8 { 
+  position: relative;
+}
+.pic8 > img {
+  position: relative;
+}
+.pic8 > h3 {
+  top: 50%;
+  left: 40%;
+  color: white;
+  position: absolute;
+}
+.pic9 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4%;
+}
+.pic9 img:hover {
+  opacity: 70%;
+}
+.pic10 { 
+  position: relative;
+}
+.pic10 > img {
+  position: relative;
+}
+.pic10 > h3 {
+  top: 50%;
+  left: 40%;
+  color: white;
+  position: absolute;
+}
+.pic11 { 
+  position: relative;
+}
+.pic11 > img {
+  position: relative;
+}
+.pic11 > h3 {
+  top: 50%;
+  left: 40%;
+  color: white;
+  position: absolute;
+}
+/* .footer {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    justify-content: space-around;
+    background-color: rgb(31, 29, 29);
+    position: relative;
+  }
+.footer hr {
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    margin-top: 50px;
+    color: #4d4d4d;
+  }
+  .copyrights h3 {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    color: white;
+  } */
+/* .copyrights p {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    color: #4d4d4d;
+  }
+  .copyrights h5 {
+    position: absolute;
+    top: 68%;
+    left: 5%;
+    color: #4d4d4d;
+  } */
+@media (max-width:576px) {
+  .pic{
+    flex-direction: column;
+  }
+  .pic3{
+    flex-direction: column;
+  }
+  
+  .pic6{
+    flex-direction: column;
+  }
+  
+  .pic9{
+    flex-direction: column;
+  }
+}
